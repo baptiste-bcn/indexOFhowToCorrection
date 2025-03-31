@@ -9,6 +9,24 @@ This project demonstrates how to search for a sequence within another sequence u
 
 ## Usage
 
-1. Open `index.html` in your web browser.
-2. Enter the sequences in the input fields. (example for SEQ1 : 1113 and for SEQ2 : 113
-3. Click the "Next Step" button to see the search process step-by-step.
+1. Install `http-server` globally using npm:
+    ```sh
+    npm install -g http-server
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd indexOFhowToCorrection
+    ```
+3. Start the server:
+    ```sh
+    http-server
+    ```
+4. Click on one of theses URL thats your IDE shows to you (I use http://192.168.103.64:8080) :
+    ```sh
+    http://localhost:8080
+    http://192.168.103.64:8080
+    ```
+      
+5. Enter the sequences in the input fields (example for SEQ1: 1113 and for SEQ2: 113).
+   
+6. Click the "Next Step" button to see the search process step-by-step.
